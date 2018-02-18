@@ -21,6 +21,5 @@ class ArrayzServiceProvider extends ServiceProvider {
 	 */
 	public function register() {
 		//
-		$this->app->bind( 'Arrayz', Arrayz::class );
 	}
 }
