@@ -20,6 +20,9 @@
     }
   },
   "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    },
     "laravel": {
       "providers": [
         "AlFaqeir\\Arrayz\\ServiceProvider\\ArrayzServiceProvider"
