@@ -1,0 +1,32 @@
+{
+  "name": "AbdullahFaqeir/laravel-arrayz",
+  "description": "A hub from giriannamalai/Arrayz to laravel",
+  "authors": [
+    {
+      "name": "Abdullah Al-Faqeir",
+      "email": "abdullah@devloops.net"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "AlFaqeir\\Arrayz\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "AlFaqeir\\Arrayz\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "AlFaqeir\\Arrayz\\ServiceProvider\\ArrayzServiceProvider"
+      ],
+      "aliases": {
+        "Arrayz": "AlFaqeir\\Arrayz\\Facades\\ArrayzFacades"
+      }
+    }
+  }
+}
