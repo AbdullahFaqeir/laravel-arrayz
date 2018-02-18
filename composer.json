@@ -1,5 +1,5 @@
 {
-  "name": "AbdullahFaqeir/laravel-arrayz",
+  "name": "alfaqeir/laravel-arrayz",
   "description": "A hub from giriannamalai/Arrayz to laravel",
   "authors": [
     {
@@ -9,10 +9,10 @@
   ],
   "minimum-stability": "dev",
   "require": {
-    "AbdullahFaqeir/laravel-arrayz": "1.0.0"
+    "alfaqeir/laravel-arrayz": "1.0.0"
   },
   "require-dev": {
-    "AbdullahFaqeir/laravel-arrayz": "1.0.0"
+    "alfaqeir/laravel-arrayz": "1.0.0"
   },
   "autoload": {
     "psr-4": {
