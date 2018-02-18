@@ -8,7 +8,9 @@
     }
   ],
   "minimum-stability": "dev",
-  "require": {},
+  "require": {
+    "AbdullahFaqeir/laravel-arrayz": "1.0.0"
+  },
   "autoload": {
     "psr-4": {
       "AlFaqeir\\Arrayz\\": "src/"
